@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Operator Logika</title>
+</head>
+<body>
+ <script>
+ var aku = 20;
+ var kamu = 19;
+ var benar = aku > kamu;
+ var salah = aku < kamu;
+ // operator && (and)
+ var hasil = benar && salah;
+ document.write(`${benar} && ${salah} = ${hasil}<br/>`);
+
+ // operator || (or)
+ var hasil = benar || salah;
+ document.write(`${benar} || ${salah} = ${hasil}<br/>`);
+
+ // operator ! (not)
+ var hasil = !benar
+ document.write(`!${benar} = ${hasil}<br/>`);
+ </script>
+</body>
+</html>
+
+Operasi AND
+a = 00111100
+b = 00001101
+a & b = 00001100
+<br>
+Operasi OR
+a = 00111100
+b = 00001101
+a | b = 00111101
+<br>
+Operasi XOR
+a = 00111100
+b = 00001101
+a ^ b = 00110001
+<br>
+Operasi NOT (Negasi / Kebalikan)
+a = 00111100
+~a = 11000011
